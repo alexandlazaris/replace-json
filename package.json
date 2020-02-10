@@ -1,0 +1,24 @@
+{
+  "name": "replace-json",
+  "version": "1.0.0",
+  "description": "1. `npm install`\r 2. `node main.js`",
+  "main": "main.js",
+  "dependencies": {
+    "json-beautify": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main":  "node ./replace.js && node format.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandlazaris/replace-json.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandlazaris/replace-json/issues"
+  },
+  "homepage": "https://github.com/alexandlazaris/replace-json#readme"
+}
